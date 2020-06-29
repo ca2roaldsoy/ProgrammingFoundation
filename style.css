@@ -1,0 +1,74 @@
+.container_audio, .container_video{
+    
+    display: inline-block;
+    margin-left: 200px;
+    vertical-align: top;
+}
+
+button, p, img {
+    
+    vertical-align: middle;
+}
+
+button, img {
+    
+    cursor: pointer;
+    border: none;
+    outline: none;
+    margin: 10px;
+    
+}
+
+p {
+    
+    padding-right: 20px;
+    display: inline-block;  
+}
+
+p:first-of-type {
+    
+    margin: 15px;
+    visibility: hidden;
+}
+
+.audio_buttons, #video_button {
+    
+    border: 2px solid;
+        
+}
+
+#songOne, #songTwo, #songThree {
+    
+    background: url("images/play.png");
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;   
+}
+
+#muteAudioOne, #muteAudioTwo, #muteAudioThree {
+    
+    background: url("images/sound.png");
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+        
+}
+
+button#playpauseVideo {
+    
+    background: url("images/play.png");
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+        
+}
+
+video {
+    
+    width: 720px;
+}
+
+#video_button img:first-of-type {
+    
+   margin-left: 17em;
+}

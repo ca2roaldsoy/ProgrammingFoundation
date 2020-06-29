@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+        <title>Audio/Video</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    
+    <body>
+        
+        <article role="article" id="top_container">
+          <section class="container_audio">
+            <h2>Audio</h2>
+            
+                <div class="audio_buttons">
+                    <button role="button" class="playbtn" id="songOne"></button>
+                    <button role="button" class="mutebtn" id="muteAudioOne"></button>
+
+                    <p id="btnPressedAudioOne">Play Audio</p>
+
+                    <img role="button" onclick="emojiOne()" src="images/smiley.png" alt="smiley emoji">
+                    <p id="emojiRatingOne">100</p>
+
+                    <img role="button" onclick="uEmojiOne()" src="images/unhappy.png" alt="unhappy emoji">
+                    <p id="uEmojiRatingOne">25</p>
+
+                </div>
+
+                <div class="audio_buttons">
+                    <button role="button" class="playbtn" id="songTwo"></button>
+                    <button role="button" class="mutebtn" id="muteAudioTwo"></button>
+
+                    <p id="btnPressedAudioTwo">Play Audio</p>
+
+                    <img role="button" onclick="emojiTwo()" src="images/smiley.png" alt="smiley emoji">
+                    <p id="emojiRatingTwo">175</p>
+
+                    <img role="button" onclick="uEmojiTwo()" src="images/unhappy.png" alt="unhappy emoji">
+                    <p id="uEmojiRatingTwo">15</p>
+
+                </div>
+
+                <div class="audio_buttons">
+                    <button role="button" class="playbtn" id="songThree"></button>
+                    <button role="button" class="mutebtn" id="muteAudioThree"></button>
+
+                    <p id="btnPressedAudioThree">Play Audio</p>
+
+                    <img role="button" onclick="emojiThree()" src="images/smiley.png" alt="smiley emoji">
+                    <p id="emojiRatingThree">225</p>
+
+                    <img role="button" onclick="uEmojiThree()" src="images/unhappy.png" alt="unhappy emoji">
+                    <p id="uEmojiRatingThree">12</p>
+
+                </div>
+
+                <audio id="myAudioOne">
+                    <source src="audio/Y_Files.mp3">
+                </audio>     
+
+                <audio id="myAudioTwo">
+                    <source src="audio/Lightning_Bugs.mp3">
+                </audio>     
+
+                <audio id="myAudioThree">
+                    <source src="audio/Feather_Duster.mp3">
+                </audio>     
+        </section>
+
+        <section class="container_video">
+            <h2>Video</h2>
+
+            <video id="myVideo">
+                <source src="video/Pexels%20Videos%201560989.mp4">
+            </video>
+            
+            <div id="video_button">
+                <button role="button" id="playpauseVideo"></button>
+                
+                <p id="btnPressedVideo">playing video</p> 
+                
+                <img role="button" onclick="emojiVideo()" src="images/smiley.png" alt="smiley emoji">
+                <p id="emojiRatingVideo">235</p>
+                
+                <img role="button" onclick="uEmojiVideo()" src="images/unhappy.png" alt="unhappy emoji">
+                <p id="uEmojiRatingVideo">5</p>
+            </div>
+        </section>
+    </article>
+        
+    </body>
+    
+      <script type="text/javascript" src="script_1.js"></script>
+    
+</html>
